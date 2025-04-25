@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans&display=swap');
+
+body{
+	background: #9a031e;
+	text-align: center;
+	  font-family: "Noto Sans", sans-serif;
+}
+
+h1{
+	font-size:calc(1rem + 2vw);
+	color: #E36414;
+}
+
+p{
+	margin-left: 0.2rem;
+}
+
+div.container{
+	width:min(800px,90%);
+	margin:0 auto;
+	padding:1rem;
+	background:#EECEB0;
+	text-align:left;
+}
+
+table, th, td{ 
+	font-size:100%; 
+	border-bottom: 1px solid #0f4c5c; 
+	border-collapse: collapse; 
+}
+            
+table{ 
+	width: 100%;
+	margin-bottom: 1rem; 
+}
+
+th,td{
+	padding:0.2rem;
+}
+
+th:nth-child(2), td:nth-child(2){
+	text-align: center;
+}
